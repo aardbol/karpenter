@@ -52,7 +52,6 @@ type Liveness struct {
 var RegistrationTimeout = time.Minute * 15
 
 const (
-	registrationTimeout = time.Minute * 15
 	// Sourced from pkg/metrics so the documented reason values stay in one place.
 	registrationTimeoutReason = metrics.RegistrationTimeoutReason
 	launchTimeoutReason       = metrics.LaunchTimeoutReason
